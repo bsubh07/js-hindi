@@ -34,3 +34,25 @@ let myObj = {
 const myFunction = function(){
     console.log("Hey Subh")
 }
+
+// +++++++++++++++++++++
+
+// Stack(Primitive), Heap(Non-Primitive)
+
+let myName = "Subhankar Sen"
+let anotherName = myName
+
+let userOne = {
+    email : "jhashkds@gmail.com",
+    upi : "oksbi@ry"
+}
+
+let userTwo = userOne
+
+userTwo.email = "sensubh@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+// both will give us same output
+
